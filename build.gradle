@@ -20,8 +20,8 @@ buildscript {
   }
 }
 
-apply plugin: 'io.github.gradle-nexus.publish-plugin'
-apply from: "./scripts/publish-root.gradle"
+// apply plugin: 'io.github.gradle-nexus.publish-plugin'
+// apply from: "./scripts/publish-root.gradle"
 
 allprojects {
   repositories {
