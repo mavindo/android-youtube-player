@@ -10,6 +10,17 @@
             overflow: hidden;
             position: fixed;
         }
+
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0);
+            pointer-events: auto;
+            z-index: 9999;
+        }
     </style>
 
   <head>
@@ -22,6 +33,7 @@
 
   <body>
     <div id="youTubePlayerDOM"></div>
+    <div id="overlay"></div>
   </body>
 
   <script type="text/javascript">
